@@ -18,12 +18,13 @@
     </object>
 
     <h2>3. Input y Select</h2>
-    <input type="text" id="textInput" placeholder="Escribe algo..." onfocus="onInputFocus()" onblur="onInputBlur()" onchange="onInputChange()" />
-    <textarea id="textArea" placeholder="Escribe algo más..." onselect="onTextSelect()"></textarea>
+    <input type="text" id="textInput" placeholder="Escribe algo" onfocus="onInputFocus()" onblur="onInputBlur()" onchange="onInputChange()" />
+    <textarea id="textArea" placeholder="Escribe algo más" onselect="onTextSelect()"></textarea>
 
     <h2>4. Formulario</h2>
     <form id="myForm" onsubmit="onFormSubmit(event)" onreset="onFormReset()">
         <input type="text" placeholder="Nombre" required />
+        <input type="text" placeholder="Apellido" required />
         <input type="submit" value="Enviar" />
         <input type="reset" value="Restablecer" />
     </form>
