@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin-top: 20px;
+    
 }
 
 input, textarea {
@@ -16,7 +17,7 @@ h2 {
 }
 
 .scroll-area {
-    border: 1px solid #ccc;
+    border: 1px solid #cd9b9b;
     margin-top: 20px;
     padding: 10px;
 }
